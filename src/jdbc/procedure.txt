@@ -1,0 +1,33 @@
+create or replace procedure FUNC(param1 in varchar2,param2 in varchar2)
+as
+x array;
+i number;
+value1 varchar2(20);
+value2 varchar2(20);
+
+begin
+
+select username,password into value1,value2 from      where
+
+
+cursor cur_1 is
+    select ....
+    from ....
+    where ....
+    group by ....
+
+For ... in ... LOOP
+
+end LOOP;
+
+while i<10 LOOP
+begin
+i:=i+1;
+end;
+end LOOP;
+
+value1 :=to_char(add_months(to_date(v_begin,'yyyymm'),-12),'yyyymm');
+
+DBMS_OUTPUT.put_line('del上个月记录='||SQL%rowcount||'条');
+
+end FUNC;
